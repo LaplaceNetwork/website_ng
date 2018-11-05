@@ -26,9 +26,15 @@ export default class Introduce extends Component {
           <img src="/img/whitepaper.png" alt="white paper" />
         </div>
         <hr className="Introduce__splitline" />
-        <div className="Introduce__video">
+        <div className="Introduce__video__btn">
           <span>观看视频</span>
-          <img src="/img/play.png" alt="play video" />
+          <img src="/img/play.png" alt="video icon" />
+        </div>
+        <div className="Introduce__video__bg">
+          <video />
+        </div>
+        <div className="Introduce__video__player">
+          <video />
         </div>
       </section>
     );
