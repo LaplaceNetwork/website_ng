@@ -40,9 +40,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100px;
-  width: 100px;
-  background-color: purple;
+  width: 153px;
+  height: 153px;
+  background: rgba(69, 66, 123, 1);
   border-radius: 50%;
 }
 .Introduce__whitepaper > img {

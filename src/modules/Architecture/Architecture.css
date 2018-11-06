@@ -1,0 +1,35 @@
+.Architecture {
+  width: 80%;
+  /* height: 562px; */
+  background: rgba(30, 31, 65, 1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+}
+.Architecture__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Architecture__item__title {
+  text-align: left;
+  font-size: 1.875rem;
+}
+.Architecture__item__split__line {
+  width: 50px;
+  margin: 0px;
+}
+.Architecture__item__container {
+  padding: 0px;
+}
+.Architecture__item__content {
+  padding: 10px 0px 10px 0px;
+  max-width: 220px;
+  text-align: left;
+  list-style: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: rgba(128, 128, 128, 1);
+}

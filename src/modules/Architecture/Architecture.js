@@ -1,22 +1,31 @@
 import React, { Component } from "react";
 import uniqid from "uniqid";
+import "./Architecture.css";
 
 function Item(props) {
   return (
-    <ul>
-      {props.data.map(d => {
-        return <li key={uniqid()}>{d}</li>;
-      })}
-    </ul>
+    <section className="Architecture__item">
+      <article className="Architecture__item__title">{props.title}</article>
+      <hr className="Architecture__item__split__line" />
+      <ul className="Architecture__item__container">
+        {props.data.map(item => {
+          return (
+            <li key={uniqid()} className="Architecture__item__content">
+              {item}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
   );
 }
 
 export default class Architecture extends Component {
   render() {
     return (
-      <div>
-        {this.props.list.map(item => {
-          return <Item key={uniqid()} data={item} />;
+      <div className="Architecture">
+        {this.props.data.map(d => {
+          return <Item key={uniqid()} title={d.title} data={d.items} />;
         })}
       </div>
     );

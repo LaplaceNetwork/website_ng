@@ -1,0 +1,52 @@
+.RouteMap {
+  /* background-image: url("/img/route_map_bg.png"); */
+  width: 80%;
+  height: 800px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.RouteMap__bg {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.RouteMap__bg > img {
+  width: 100%;
+}
+.RouteMap__content {
+  display: flex;
+  flex-direction: column;
+}
+.RouteMap__q1 {
+  position: absolute;
+  z-index: 1;
+  top: 26%;
+  left: 31%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 263px;
+}
+.RouteMap__q1__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.RouteMap__q1__desc__date {
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: rgba(188, 184, 255, 1);
+}
+.RouteMap__q1__desc__content {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(179, 179, 179, 1);
+}
