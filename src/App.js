@@ -18,9 +18,16 @@ class App extends Component {
     };
   }
   render() {
-    const { nav, introdution, architecture, routeMap, members, videos } = i18n[
-      this.state.lang
-    ];
+    const {
+      nav,
+      introdution,
+      architecture,
+      routeMap,
+      members,
+      videos,
+      faqs,
+      footer
+    } = i18n[this.state.lang];
     return (
       <div className="App">
         <Nav onChangeLang={this.onChangeLang} data={nav} />
@@ -29,8 +36,8 @@ class App extends Component {
         <RouteMap data={routeMap} />
         <Team data={members} />
         <Videos data={videos} />
-        <FAQs data={videos} />
-        <Footer data={videos} />
+        <FAQs data={faqs} />
+        <Footer data={footer} />
       </div>
     );
   }

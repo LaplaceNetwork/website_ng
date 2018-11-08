@@ -193,7 +193,14 @@ export default {
         ],
         linkedin: "http://www.linkedin.com/in/%E5%A9%B7-%E6%9D%8E-33337ba2/"
       }
-    ]
+    ],
+    videos: {
+      title: "钱包App测试版操作示范",
+      list: [
+        { img: "/video/qianbao_img.png", src: "/video/qianbao.mp4" },
+        { img: "/video/lpt-pay_img.png", src: "/video/lpt-pay.mp4" }
+      ]
+    }
   },
   en: {
     architecture: []
