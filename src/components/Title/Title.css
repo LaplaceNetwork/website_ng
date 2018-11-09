@@ -11,6 +11,7 @@
   font-size: 2rem;
   font-weight: 400;
   letter-spacing: 10px;
+  margin-right: -10px;
 }
 .Title__bottom__line {
   width: 45px;

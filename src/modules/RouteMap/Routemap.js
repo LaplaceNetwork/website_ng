@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import uniqid from "uniqid";
 import "./RouteMap.css";
+import Title from "../../components/Title";
 export default class Routemap extends Component {
   render() {
     const { title, routes } = this.props.data;
@@ -10,10 +11,7 @@ export default class Routemap extends Component {
           <img src="/img/route_map_bg.png" alt="route map background" />
         </div>
 
-        <article className="RouteMap__title">
-          {title}
-          <hr />
-        </article>
+        <Title text={title} />
         <div className="RouteMap__r1">
           <label className="RouteMap__r1__desc">
             <span className="RouteMap__r1__desc__date">{routes[0].date}</span>

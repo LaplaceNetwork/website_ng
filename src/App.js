@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import VideoBackground from "./components/VideoBackground";
 import Nav from "./components/Nav";
 import Introduce from "./modules/Introduce";
 import Architecture from "./modules/Architecture";
@@ -23,18 +24,19 @@ class App extends Component {
       introdution,
       architecture,
       routeMap,
-      members,
+      team,
       videos,
       faqs,
       footer
     } = i18n[this.state.lang];
     return (
       <div className="App">
+        <VideoBackground />
         <Nav onChangeLang={this.onChangeLang} data={nav} />
         <Introduce data={introdution} />
         <Architecture data={architecture} />
         <RouteMap data={routeMap} />
-        <Team data={members} />
+        <Team data={team} />
         <Videos data={videos} />
         <FAQs data={faqs} />
         <Footer data={footer} />
