@@ -3,7 +3,6 @@ import "./App.css";
 import VideoBackground from "./components/VideoBackground";
 import Nav from "./components/Nav";
 import Introduce from "./modules/Introduce";
-import Architecture from "./modules/Architecture";
 import RouteMap from "./modules/RouteMap";
 import Team from "./modules/Team";
 import Videos from "./modules/Videos";
@@ -19,32 +18,27 @@ class App extends Component {
     };
   }
   render() {
-    const {
-      nav,
-      introdution,
-      architecture,
-      routeMap,
-      team,
-      videos,
-      faqs,
-      footer
-    } = i18n[this.state.lang];
+    const { lang } = this.state;
+    const { nav, introdution, routeMap, team, videos, faqs, footer } = i18n[
+      lang
+    ];
+    console.log(this.state.lang);
     return (
       <div className="App">
         <VideoBackground />
-        <Nav onChangeLang={this.onChangeLang} data={nav} />
-        <Introduce data={introdution} />
-        <Architecture data={architecture} />
-        <RouteMap data={routeMap} />
-        <Team data={team} />
-        <Videos data={videos} />
-        <FAQs data={faqs} />
-        <Footer data={footer} />
+        <Nav onChangeLang={this.onChangeLang} data={nav} lang={lang} />
+        <Introduce data={introdution} lang={lang} />
+        <RouteMap data={routeMap} lang={lang} />
+        <Team data={team} lang={lang} />
+        <Videos data={videos} lang={lang} />
+        <FAQs data={faqs} lang={lang} />
+        <Footer data={footer} lang={lang} />
       </div>
     );
   }
-  onChangeLang = lang => {
-    this.setState({ lang });
+  onChangeLang = () => {
+    const { lang } = this.state;
+    this.setState({ lang: lang === "cn" ? "en" : "cn" });
   };
 }
 

@@ -18,3 +18,11 @@ code {
 li {
   list-style: none;
 }
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}

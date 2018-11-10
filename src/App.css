@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background: #22264e;
+  background: url("/img/bg.png") no-repeat;
+  background-size: 100% 6900px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

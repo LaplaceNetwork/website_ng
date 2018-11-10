@@ -1,53 +1,64 @@
 export default {
   cn: {
-    architecture: [
-      {
-        title: "基础架构",
-        items: [
-          "跨链抽象层",
-          "主链平台中立",
-          "规避绑定单一平台风险",
-          "核心数据交换协议群",
-          "生态伙伴治理方案",
-          "基于代币经济学驱动",
-          "基于代币的信用评分体系",
-          "去中心化信任治理体系"
-        ]
-      },
-      {
-        title: "协议群",
-        items: [
-          "去中心化CA协议",
-          "数据储存协议",
-          "数据交易协议",
-          "支付协议",
-          "信用评估协议",
-          "生态工作量证明协议",
-          "生态贡献挖矿"
-        ]
-      },
-      {
-        title: "生态组件",
-        items: [
-          "移动APP",
-          "生态服务的官方入口",
-          "索引服务",
-          "支持对LPT网络中各种数据产品的搜索、认证以及推荐",
-          "LPT开发框架",
-          "方便生态伙伴快速接入协议"
-        ]
-      },
-      {
-        title: "应用场景",
-        items: [
-          "La-place Pro",
-          "B2B数据交易所",
-          "La-shop",
-          "解锁计划",
-          "B2C数字版权市场"
-        ]
-      }
-    ],
+    nav: ["拉普拉斯", "路线图", "LPT团队", "FAQ", "ENGLISH"],
+    introdution: {
+      title: "拉普拉斯网络",
+      subtitle: "去中心化数据交换协议群",
+      desc:
+        "拉普拉斯网络简称LPT，是一套基于区块链去中心化概念数据交换协议群，支持数据的发现，授权与交易。",
+      wpName: "白皮书",
+      whitepaper: "laplace_whitepaper_cn_v5.5.pdf",
+      wmName: "观看视频",
+      video: "intro_cn.mp4",
+      architecture: [
+        {
+          title: "基础架构",
+          items: [
+            "跨链抽象层",
+            "主链平台中立",
+            "规避绑定单一平台风险",
+            "核心数据交换协议群",
+            "生态伙伴治理方案",
+            "基于代币经济学驱动",
+            "基于代币的信用评分体系",
+            "去中心化信任治理体系"
+          ]
+        },
+        {
+          title: "协议群",
+          items: [
+            "去中心化CA协议",
+            "数据储存协议",
+            "数据交易协议",
+            "支付协议",
+            "信用评估协议",
+            "生态工作量证明协议",
+            "生态贡献挖矿"
+          ]
+        },
+        {
+          title: "生态组件",
+          items: [
+            "移动APP",
+            "生态服务的官方入口",
+            "索引服务",
+            "支持对LPT网络中各种数据产品的搜索、认证以及推荐",
+            "LPT开发框架",
+            "方便生态伙伴快速接入协议"
+          ]
+        },
+        {
+          title: "应用场景",
+          items: [
+            "La-place Pro",
+            "B2B数据交易所",
+            "La-shop",
+            "解锁计划",
+            "B2C数字版权市场"
+          ]
+        }
+      ]
+    },
     routeMap: {
       title: "路线图",
       routes: [
@@ -309,6 +320,332 @@ export default {
     }
   },
   en: {
-    architecture: []
+    nav: ["Laplace", "Route Map", "LPT Team", "FAQ", "中文"],
+    introdution: {
+      title: "Laplace NetWork",
+      subtitle: "Decentralized Data Exchange Protocol Group",
+      desc: "Supporter of data discovery, data authorization and data exchange",
+      wpName: "White paper",
+      whitepaper: "laplace_whitepaper_cn_v5.5.pdf",
+      wmName: "Watch Video",
+      video: "intro_cn.mp4",
+      architecture: [
+        {
+          title: "Infrastructure",
+          items: [
+            "Cross-chain Abstract Layer",
+            "Neutral mainnet platform",
+            "Avert the risks of a single platform",
+            "Core Data Exchange Protocol Group",
+            "Management Plan for Partners in the Ecosystem",
+            "Token economics basis",
+            "Token credit scores system basis",
+            "Decentralized trust governance"
+          ]
+        },
+        {
+          title: "Protocol Group",
+          items: [
+            "Decentralized CA Protocol (LPT-CA)",
+            "Data Storage Certificate Agreement",
+            "Data Exchange Protocol (LPT-exchange)",
+            "Data Payment Protocol (LPT-PAY)",
+            "Credit Scoring Protocol (LPT-scores)",
+            "Ecosystem PoW Protocol",
+            "Ecological contribution to mining"
+          ]
+        },
+        {
+          title: "Ecological Components",
+          items: [
+            "Mobile APP",
+            "Official portal of ecological service",
+            "Indexing Service",
+            "Retrieve, authentication and recommendation of various services on LPT web",
+            "LPT Development Framework",
+            "Enable partners in the ecosystem access protocols quickly"
+          ]
+        },
+        {
+          title: "Applications Scenarios",
+          items: [
+            "La-place Pro",
+            "B2B data exchange",
+            "La-shop",
+            "Allocation schemes",
+            "B2C digital rights market"
+          ]
+        }
+      ]
+    },
+    routeMap: {
+      title: "Route map",
+      routes: [
+        {
+          date: "2018.Q4",
+          content: ["First edition of protocol finalized"],
+          icon: "r1.png"
+        },
+        {
+          date: "2019.Q1",
+          content: [
+            "Official APP comes online, will synchronize the update on iteration protocol later",
+            "Construction of credit scores community"
+          ],
+          icon: "r2.png"
+        },
+        {
+          date: "2019.Q2",
+          content: [
+            "Test version comes online, publish the framework of community assessment",
+            "LPT-PAY officially come online, begin to recruit ecological partners of payment network"
+          ],
+          icon: "r3.png"
+        },
+        {
+          date: "2019.Q3",
+          content: ["Official indexing service come online"],
+          icon: "r4.png"
+        },
+        {
+          date: "2019.Q4",
+          content: [
+            "Official web assessment version comes online",
+            "Ecological distribution of mining (PoW and PoS) come online",
+            "Recruitment of ecological partners from whole network"
+          ],
+          icon: "r5.png"
+        }
+      ]
+    },
+    team: {
+      title: "Team members",
+      members: [
+        {
+          name: "Eric Deng",
+          title: "Founder/CEO",
+          avatar: "Eric_Deng.png",
+          desc: [
+            "Eric Deng is a computer science master graduate of University of Shanghai for Science and Technology and embedded system master graduate of Kristianstad University. He is a financial big data analyzing and processing senior manager, machine learning engineer, web crawler specialist and computer geek. He has original ideas about data connection value. He was hired at Citi."
+          ],
+          linkedin: "https://www.linkedin.com/in/feng-deng-606a0366/"
+        },
+        {
+          name: "Yang Li",
+          title: "CTO",
+          avatar: "Yang_Li.jpeg",
+          desc: [
+            "Graduated from National University of Defense Technology in China. The software expert, consultant and KOL architect. He was in charge of developing INWECRYPTO (The wallet of multi assets ), media information website and the first simulation game WOB for Block chain community."
+          ],
+          linkedin: "http://www.linkedin.com/in/%E6%89%AC-%E6%9D%8E-175157170/"
+        },
+        {
+          name: "Ray Ying",
+          title: "CIO",
+          avatar: "Ray_Ying.png",
+          desc: [
+            "Jun Ying is the ex-CTO of OKI China multimedia division, secretary general of World Blockchain Organization Blockchain Innovation Committee and mentor of Shanghai Jiao Tong University Business School. He has twenty years experience in software engineering."
+          ],
+          linkedin: "http://www.linkedin.com/in/%E4%BF%8A-%E5%BA%94-951151170/"
+        },
+        {
+          name: "Joeann Rey Santiago",
+          title: "CMO",
+          avatar: "Joeann_Rey_Santiago.png",
+          desc: [
+            "Joeann Rey Santiago has over 10 years experience in enterprise consulting. He was a marketing consultant of Western Union Asian-Pacific region and his work includes marketing, business, product management and global resource integration."
+          ],
+          linkedin: "http://www.linkedin.com/in/joesantiago52585/"
+        },
+        {
+          name: "Andy Duan",
+          title: "Product Manager",
+          avatar: "Andy_Duan.jpg",
+          desc: [
+            "Andy Duan holds a master’s degree in management from the Shanghai University of Finance and Economics. He worked at many well-known Internet companies such as Meituan and 58. He is proficient in the design, development and management of Internet products and has deep knowledge in blockchain and data encryption technologies. Duan has published several research-based articles about blockchain technology."
+          ],
+          linkedin: "https://www.linkedin.com/in/andy-duan-a55b2396/"
+        },
+        {
+          name: "Mustang Kong",
+          title: "Technical Expert",
+          avatar: "Mustang_Kong.jpg",
+          desc: [
+            "Mustang Kong holds a master's degree in computer management from the Chinese Academy of Sciences. Kong is highly interested in the study of real-time streaming analysis of big data. He has 8 years experience in the game industry, 3 years experience in blockchain technology development, and extensive team management experience. As a full-stack developer， Kong successfully launched tens of millions of projects. Wu has a profound knowledge and an extensive background in blockchain network communication and digital encryption technologies."
+          ],
+          linkedin: "http://linkedin.com/in/zhigang-gong-6018b39a"
+        },
+        {
+          name: "Yoga Zhao",
+          title: "Front-End Engineer",
+          avatar: "Yoga_Zhao.png",
+          desc: [
+            "Yoga Zhao is a senior front-end expert developer, he has over 10 years  core development experience in enterprise application. He was responsible for technical breakthroughs and architecture refactoring of front-end rendering engines. Yoga Zhao is now committed to design internet, app-end solutions for blockchain and architecture of blockchain. He is a spreader of front-end componentized design and was hired at Citi."
+          ],
+          linkedin: "http://www.linkedin.com/in/yoga-zhao-80b48b66/"
+        },
+
+        {
+          name: "Weiping Chen",
+          title: "Senior Mobile Terminal Development Engineer",
+          avatar: "Weiping_Chen.png",
+          desc: [
+            "Weiping Chen was hired at large domestic securities firms and financial organizations. He was a leading designer of many applications and he has deep understanding of IOS and Android underlying design. He is one of the early blockchain researchers that has a wealth of acknowledge and technique on blockchain. Chen is a master of OC, Swift, JAVA, JavaScript and C, etc."
+          ],
+          linkedin:
+            "http://www.linkedin.com/in/%E4%BC%9F%E5%B9%B3-%E9%99%88-717474152/"
+        },
+        {
+          name: "Dongchun Li",
+          title: "Senior Full Stack Engineer",
+          avatar: "Dongchun_Li.png",
+          desc: [
+            "Dongchun Li has deep research and understanding of blockchain technology. He was the principle of many internet projects that was responsible for architecture design and core services. He has rich experience in front-end development, back-end development and cloud computing platform architecture. He is now doing the cloud computing platform architecture micro service design, containerization and blockchain technology research."
+          ],
+          linkedin: "http://www.linkedin.com/in/jason-lee-2167438b/"
+        },
+        {
+          name: "Sylvia Liu",
+          title: "Operation",
+          avatar: "Sylvia_Liu.jpeg",
+          desc: [
+            "Sylvia Liu graduated from the UoM,. She was the moderator and planner of around 20 blockchain events and activities.She planned the 12th Shanghai Financial Services Forum-Blockchain Forum, which more than 700 people attended."
+          ],
+          linkedin: "http://www.linkedin.com/in/sylvia-liu-a3850471/"
+        },
+        {
+          name: "Han Zhang",
+          title: "UI Designer",
+          avatar: "Han_Zhang.png",
+          desc: [
+            "Han Zhang has rich experience in painting. She is responsible for UI and graphic design of mobile terminal."
+          ],
+          linkedin: "http://www.linkedin.com/in/%E5%87%BD-%E5%BC%A0-aba152170/"
+        },
+        {
+          name: "Ting Li",
+          title: "Public Relations",
+          avatar: "Ting_Li.png",
+          desc: [
+            "Ting Li has over 10 years experience in internet human resource management. She is one of the unclutterer and manager of blockchain elite corps. She was hired at well-known internet financial companies and internet real estate companies."
+          ],
+          linkedin: "http://www.linkedin.com/in/%E5%A9%B7-%E6%9D%8E-33337ba2/"
+        }
+      ]
+    },
+    videos: {
+      title: "钱包App测试版操作示范",
+      list: [
+        { img: "/video/qianbao_img.png", src: "/video/qianbao.mp4" },
+        { img: "/video/lpt-pay_img.png", src: "/video/lpt-pay.mp4" }
+      ]
+    },
+    faqs: {
+      title: "FAQ",
+      list: [
+        {
+          q: "Which countries and regions are not available for participation?",
+          a: ["Not available for mainland Chinese users and American users."]
+        },
+        {
+          q: "What is Laplace Protocol?",
+          a: [
+            "LPT is a decentralized data exchange protocol group which enables users to exploit, authorize and exchange data."
+          ]
+        },
+        {
+          q: "What are the advantages of data exchanges based on blockchain?",
+          a: [
+            "There are many unsolvable problems of traditional data exchange such as information asymmetry, anonymity, traceability, data right verification, etc., which tremendously retarded data exchanges and future expansion of data service market. However, the special attributes of blockchain can solve the problem  above because it is traceable, decentralized and distributed."
+          ]
+        },
+        {
+          q: "How do we realize the authenticity of data exchange?",
+          a: [
+            "1. Owner of the data should get through LPT-CA (decentralized CA authentication protocol) before processing data exchange.<br/>",
+            "2. Owner of the data should mortgage a fair amount of LPT before processing data exchange.<br/>",
+            "3. Banding with the power of community, the foundation will be able to make an open and transparent credit rating community based on LPT-SCORES protocol (decentralized credit rating protocol).<br/>",
+            "4. All of the above processes are running on an opened bi-level network of LPT protocol and are supervised and maintained by the community."
+          ]
+        },
+        {
+          q: "What are the sub-protocols for?",
+          a: [
+            "The LPT protocol group which around the data exchange ecosystem mainly provides services below :<br/>",
+            "1. LPT-CA protocol insures the traceability of data owners’ identity.<br/>",
+            "2. LPT-DATA protocol includes data production and storage certificate agreements.<br/>",
+            "3. LPT-PRIVACY protocol supports secure storage and anonymous transactions of data.<br/>",
+            "4. LPT-EXCHANGE/LPT-PAY supports matchmaking trading and secured transaction of data.<br/>",
+            "5. LPT-SCORES protocol is a decentralized credit rating community protocol."
+          ]
+        },
+        {
+          q: "What are the advantages of our protocols?",
+          a: [
+            "1. Designing from the real demand and blending the advantages of centralization/decentralization, the protocol group is a bi-level protocol group which can be landed quickly.<br/>",
+            "2. Ecological partners can adequately use performance advantages of  centralized framework to provide great support on service availability without ensuring all data are processed on chain.<br/>",
+            "3. Based on the premise of ensuring the performance, Laplace Protocol Group fully utilized blockchain advantages such as distributed trust and traceability to construct a fair, open but privacy protected exchange ecosystem with dependability."
+          ]
+        },
+        {
+          q: "What is data services portal?",
+          a: [
+            "By connecting LPT protocol to our ecological partners, we will construct an integrated automatic data service portal which can provide our users out-of-the-box data product services including each stage of data processing such as data capture, data treating, data analysis, data storage and data forecasting, etc."
+          ]
+        },
+        {
+          q: "What are the future applications of LPT protocol?",
+          a: [
+            "Our ultimate goal is to construct a new type of open global market for data processing and product service discovery based on LPT. We will make effort to enable each partner in the data ecosystem takes his need and realize mutual benefit."
+          ]
+        },
+        {
+          q: "What are the roles of protocol token in the ecosystem?",
+          a: [
+            "PoW, fuel costs of protocol executes, ecological partners governance, etc."
+          ]
+        }
+      ]
+    },
+    footer: {
+      desc: "Subscribe us",
+      qrcode: "qrcode.png",
+      links: [
+        { icon: "/img/telegram.png", href: "https://t.me/LaplaceNetwork_CN" },
+        {
+          icon: "/img/twitter.png",
+          href: "https://twitter.com/LaplaceNetwork"
+        },
+        { icon: "/img/weibo.png", href: "http://weibo.com/LaplaceNetwork" },
+        {
+          icon: "/img/facebook.png",
+          href: "https://www.facebook.com/net.laplace.3"
+        },
+        {
+          icon: "/img/youtube.png",
+          href: "https://www.youtube.com/channel/UCdVPt2Glcj5i-JRkBxLKK8Q"
+        },
+        {
+          icon: "/img/medium.png",
+          href: "https://medium.com/@LaplaceNetwork"
+        },
+        {
+          icon: "/img/github.png",
+          href: "https://github.com/LaplaceNetwork/website"
+        },
+        {
+          icon: "/img/reddit.png",
+          href: "https://www.reddit.com/user/laplacenetwork"
+        },
+        {
+          icon: "/img/steemit.png",
+          href: "https://steemit.com/@laplacenetwork"
+        },
+        {
+          icon: "/img/mail.png",
+          href: "mailto:laplacenetwork@sina.com"
+        }
+      ]
+    }
   }
 };

@@ -21,7 +21,7 @@ class FAQ extends Component {
       "FAQ--isOpened": isOpened
     });
     return (
-      <div className={rootCls} onClick={this.toggleState}>
+      <div className={rootCls} onClick={this.toggleState} id="faq">
         <div className="FAQ__question">
           <img className="FAQ__state_icon" src={stateIconSrc} alt="faq state" />
           <span>{q}</span>

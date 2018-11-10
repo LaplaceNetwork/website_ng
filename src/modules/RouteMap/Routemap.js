@@ -6,11 +6,7 @@ export default class Routemap extends Component {
   render() {
     const { title, routes } = this.props.data;
     return (
-      <section className="RouteMap">
-        <div className="RouteMap__bg">
-          <img src="/img/route_map_bg.png" alt="route map background" />
-        </div>
-
+      <section className="RouteMap" id="routeMap">
         <Title text={title} />
         <div className="RouteMap__r1">
           <label className="RouteMap__r1__desc">

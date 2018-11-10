@@ -7,7 +7,7 @@ export default class VideoBackground extends Component {
       <div className="VideoBackground">
         <video
           // width="100%"
-          height="1000"
+          height="1300"
           src="/video/bg.mp4"
           alt="auto play background video"
           autoPlay

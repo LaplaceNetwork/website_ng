@@ -10,11 +10,17 @@ export default class Team extends Component {
       member: props.data.members[0]
     };
   }
+  componentWillReceiveProps = nextProps => {
+    if (this.props.data !== nextProps.data) {
+      this.setState({ member: nextProps.data.members[0] });
+    }
+  };
+
   render() {
     const { title, members } = this.props.data;
     const { member } = this.state;
     return (
-      <div className="Team">
+      <div className="Team" id="team">
         <Title text={title} />
         <div className="Team__inner">
           <ul className="Team__members">
@@ -53,6 +59,6 @@ export default class Team extends Component {
   onChangeDesc = e => {
     const index = +e.currentTarget.dataset.index;
     console.log(index);
-    this.setState({ member: this.props.data[index] });
+    this.setState({ member: this.props.data.members[index] });
   };
 }

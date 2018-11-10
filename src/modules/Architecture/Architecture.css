@@ -9,7 +9,7 @@
   flex-direction: row;
   justify-content: space-around;
   padding: 50px;
-  margin-top: -250px;
+  /* margin-top: -250px; */
 }
 .Architecture__item {
   display: flex;
@@ -18,7 +18,7 @@
 }
 .Architecture__item__title {
   text-align: left;
-  font-size: 1.875rem;
+  font-size: 1.5rem;
 }
 .Architecture__item__split__line {
   width: 50px;
