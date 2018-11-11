@@ -19,6 +19,7 @@ export default class Videos extends Component {
 
   render() {
     const { title } = this.props.data;
+    const { lang } = this.props;
     const { videos, video, isPlaying, videoSrc } = this.state;
     const mainCls = classNames({
       Videos: true,
@@ -28,8 +29,11 @@ export default class Videos extends Component {
       player: true,
       "player--playing": isPlaying
     });
+    const rootCls = classNames({
+      ["--lang-" + lang]: lang
+    });
     return (
-      <div style={{ width: "100%", position: "relative" }}>
+      <div style={{ width: "100%", position: "relative" }} className={rootCls}>
         <section className={mainCls}>
           <Title text={title} />
           <ul className="Videos__list">

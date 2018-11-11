@@ -9,7 +9,7 @@
   flex-direction: row;
   justify-content: space-around;
   padding: 50px;
-  /* margin-top: -250px; */
+  box-shadow: 5px 5px 25px #06072d;
 }
 .Architecture__item {
   display: flex;

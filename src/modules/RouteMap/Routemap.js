@@ -1,12 +1,18 @@
 import React, { Component } from "react";
 import uniqid from "uniqid";
+import classNames from "classnames";
 import "./RouteMap.css";
 import Title from "../../components/Title";
 export default class Routemap extends Component {
   render() {
     const { title, routes } = this.props.data;
+    const { lang } = this.props;
+    const rootCls = classNames({
+      RouteMap: true,
+      ["--lang-" + lang]: lang
+    });
     return (
-      <section className="RouteMap" id="routeMap">
+      <section className={rootCls} id="routeMap">
         <Title text={title} />
         <div className="RouteMap__r1">
           <label className="RouteMap__r1__desc">

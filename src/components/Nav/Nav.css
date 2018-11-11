@@ -41,6 +41,9 @@
   cursor: pointer;
   padding: 10px 0px 10px 0px;
 }
+.Nav__menu:hover {
+  opacity: 0.5;
+}
 .Nav__menu--actived {
   border-bottom: solid 1px;
 }

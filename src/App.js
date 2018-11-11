@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import classNames from "classnames";
 import "./App.css";
 import VideoBackground from "./components/VideoBackground";
 import Nav from "./components/Nav";
@@ -14,7 +15,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      lang: "cn"
+      lang: "en"
     };
   }
   render() {
@@ -22,9 +23,12 @@ class App extends Component {
     const { nav, introdution, routeMap, team, videos, faqs, footer } = i18n[
       lang
     ];
-    console.log(this.state.lang);
+    const rootCls = classNames({
+      App: true,
+      ["--lang-" + lang]: lang
+    });
     return (
-      <div className="App">
+      <div className={rootCls}>
         <VideoBackground />
         <Nav onChangeLang={this.onChangeLang} data={nav} lang={lang} />
         <Introduce data={introdution} lang={lang} />

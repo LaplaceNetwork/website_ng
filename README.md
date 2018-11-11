@@ -1,1 +1,1 @@
-This is the project of new version.
+This is the official site of new style.

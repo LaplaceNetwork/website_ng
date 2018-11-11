@@ -80,3 +80,6 @@
   font-size: 2rem;
   cursor: pointer;
 }
+.Videos.--lang-en {
+  display: none;
+}

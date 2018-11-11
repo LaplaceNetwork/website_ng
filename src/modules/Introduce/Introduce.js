@@ -20,13 +20,18 @@ export default class Introduce extends Component {
       wpName,
       wmName
     } = this.props.data;
+    const { lang } = this.props;
+    const rootCls = classNames({
+      Introduce: true,
+      ["--lang-" + lang]: lang
+    });
     const { isPlaying, bg_video_src } = this.state;
     const playerCls = classNames({
       Introduce__video__player: true,
       "Introduce__video__player--isPlaying": isPlaying
     });
     return (
-      <section className="Introduce" id="introduction">
+      <section className={rootCls} id="introduction">
         <div className="Introduce__title">
           <img
             src="/img/logo.png"

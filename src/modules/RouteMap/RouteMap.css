@@ -88,6 +88,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  text-align: right;
 }
 .RouteMap__r2__icon {
   width: 100px;
@@ -166,4 +167,17 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.RouteMap.--lang-en .RouteMap__r3__desc {
+  text-align: left;
+  position: relative;
+  left: 18%;
+}
+.RouteMap.--lang-en .RouteMap__r4__desc {
+  position: relative;
+  left: 24%;
+}
+.RouteMap.--lang-en .RouteMap__r5__desc__content {
+  text-align: left;
 }

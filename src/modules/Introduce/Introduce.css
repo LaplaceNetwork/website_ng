@@ -70,6 +70,7 @@
   align-items: center;
   height: 90px;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 .Introduce__video__btn:hover,
 .Introduce__video__player_closer:hover {
@@ -77,7 +78,6 @@
 }
 .Introduce__video__btn > img {
   width: 50%;
-  cursor: pointer;
 }
 .Introduce__video__player {
   display: none;
@@ -101,4 +101,15 @@
   font-weight: bolder;
   font-size: 2rem;
   cursor: pointer;
+}
+.Introduce.--lang-en .Introduce__title,
+.Introduce.--lang-en .Introduce__desc {
+  width: auto;
+}
+.Introduce.--lang-en .Introduce__whitepaper > a > span {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+.Introduce.--lang-en .Introduce__video__btn > span {
+  margin-top: -20px;
 }

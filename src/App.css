@@ -36,3 +36,6 @@
     transform: rotate(360deg);
   }
 }
+.App.--lang-en {
+  background-size: 100% 7000px;
+}
