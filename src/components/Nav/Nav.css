@@ -47,3 +47,12 @@
 .Nav__menu--actived {
   border-bottom: solid 1px;
 }
+
+@media screen and (max-width: 425px) {
+  .Nav__menu {
+    display: none;
+  }
+  .Nav__menu:last-child {
+    display: inherit;
+  }
+}

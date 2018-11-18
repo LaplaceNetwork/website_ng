@@ -155,7 +155,7 @@ export default {
         {
           name: "Yoga Zhao",
           title: "前端工程师",
-          avatar: "Yoga_Zhao.png",
+          avatar: "Yoga_Zhao_sm.png",
           desc: [
             "资深前端开发专家，拥有十年以上企业应用核心前端开发经验。 负责前端渲染引擎项目的技术攻关和架构重构。 现致力于设计互联网、区块链的移动端解决方案与架构， 前端组件化设计的布道者。曾任职于Citi。"
           ],
@@ -534,7 +534,7 @@ export default {
       ]
     },
     videos: {
-      title: "钱包App测试版操作示范",
+      title: "Demos for App",
       list: [
         { img: "/video/qianbao_img.png", src: "/video/qianbao.mp4" },
         { img: "/video/lpt-pay_img.png", src: "/video/lpt-pay.mp4" }
@@ -562,28 +562,28 @@ export default {
         {
           q: "How do we realize the authenticity of data exchange?",
           a: [
-            "1. Owner of the data should get through LPT-CA (decentralized CA authentication protocol) before processing data exchange.<br/>",
-            "2. Owner of the data should mortgage a fair amount of LPT before processing data exchange.<br/>",
-            "3. Banding with the power of community, the foundation will be able to make an open and transparent credit rating community based on LPT-SCORES protocol (decentralized credit rating protocol).<br/>",
+            "1. Owner of the data should get through LPT-CA (decentralized CA authentication protocol) before processing data exchange.",
+            "2. Owner of the data should mortgage a fair amount of LPT before processing data exchange.",
+            "3. Banding with the power of community, the foundation will be able to make an open and transparent credit rating community based on LPT-SCORES protocol (decentralized credit rating protocol).",
             "4. All of the above processes are running on an opened bi-level network of LPT protocol and are supervised and maintained by the community."
           ]
         },
         {
           q: "What are the sub-protocols for?",
           a: [
-            "The LPT protocol group which around the data exchange ecosystem mainly provides services below :<br/>",
-            "1. LPT-CA protocol insures the traceability of data owners’ identity.<br/>",
-            "2. LPT-DATA protocol includes data production and storage certificate agreements.<br/>",
-            "3. LPT-PRIVACY protocol supports secure storage and anonymous transactions of data.<br/>",
-            "4. LPT-EXCHANGE/LPT-PAY supports matchmaking trading and secured transaction of data.<br/>",
+            "The LPT protocol group which around the data exchange ecosystem mainly provides services below :",
+            "1. LPT-CA protocol insures the traceability of data owners’ identity.",
+            "2. LPT-DATA protocol includes data production and storage certificate agreements.",
+            "3. LPT-PRIVACY protocol supports secure storage and anonymous transactions of data.",
+            "4. LPT-EXCHANGE/LPT-PAY supports matchmaking trading and secured transaction of data.",
             "5. LPT-SCORES protocol is a decentralized credit rating community protocol."
           ]
         },
         {
           q: "What are the advantages of our protocols?",
           a: [
-            "1. Designing from the real demand and blending the advantages of centralization/decentralization, the protocol group is a bi-level protocol group which can be landed quickly.<br/>",
-            "2. Ecological partners can adequately use performance advantages of  centralized framework to provide great support on service availability without ensuring all data are processed on chain.<br/>",
+            "1. Designing from the real demand and blending the advantages of centralization/decentralization, the protocol group is a bi-level protocol group which can be landed quickly.",
+            "2. Ecological partners can adequately use performance advantages of  centralized framework to provide great support on service availability without ensuring all data are processed on chain.",
             "3. Based on the premise of ensuring the performance, Laplace Protocol Group fully utilized blockchain advantages such as distributed trust and traceability to construct a fair, open but privacy protected exchange ecosystem with dependability."
           ]
         },

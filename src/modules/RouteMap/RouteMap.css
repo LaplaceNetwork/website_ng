@@ -181,3 +181,14 @@
 .RouteMap.--lang-en .RouteMap__r5__desc__content {
   text-align: left;
 }
+@media screen and (max-width: 768px) {
+  .RouteMap__r1 {
+    width: 40%;
+    top: 17%;
+    left: -12.4%;
+  }
+  .RouteMap img {
+    width: 35%;
+    /* height: 40%; */
+  }
+}

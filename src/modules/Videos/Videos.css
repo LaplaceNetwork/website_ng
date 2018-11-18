@@ -71,6 +71,11 @@
 .player--playing {
   /* width: 100%; */
   display: block;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: black;
 }
 .player__closer {
   position: absolute;
@@ -82,4 +87,15 @@
 }
 .Videos.--lang-en {
   display: none;
+}
+@media screen and (max-width: 425px) {
+  .Videos {
+    height: 500px;
+  }
+  .Introduce.--lang-cn.Videos .Title__text {
+    font-size: 1rem;
+  }
+  .Videos__player {
+    top: 55%;
+  }
 }

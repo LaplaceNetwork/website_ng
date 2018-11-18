@@ -36,3 +36,23 @@
   font-weight: 400;
   color: rgba(128, 128, 128, 1);
 }
+@media screen and (max-width: 768px) {
+  .Architecture {
+    flex-direction: column;
+    padding: 30px;
+    width: 75%;
+  }
+  .Architecture__item__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .Architecture__item__title {
+    font-size: 1.2rem;
+  }
+  .Architecture__item__content {
+    font-size: 0.8rem;
+    width: 50%;
+  }
+}

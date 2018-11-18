@@ -1,6 +1,6 @@
 .Team {
   width: 90%;
-  height: 700px;
+  min-height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -13,6 +13,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .Team__members {
   width: 51.5%;
@@ -20,7 +21,6 @@
   padding: 0px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 .Team__member__avatar {
@@ -29,6 +29,8 @@
   border-radius: 15px;
   cursor: pointer;
   opacity: 0.5;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 .Team__member__avatar--actived {
   /* box-shadow: 0px 2px 10px #f8f8f8; */
@@ -80,4 +82,27 @@
   font-weight: 400;
   color: rgba(128, 128, 128, 1);
   text-align: left;
+  word-break: break-word;
+}
+@media screen and (max-width: 768px) {
+  .Team__inner {
+    flex-direction: column;
+  }
+  .Team__members {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+  }
+  .Team__member__avatar {
+    width: 80px;
+    height: 80px;
+    margin-right: 0px;
+    border-radius: 10px;
+  }
+  .Team__member {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
 }
