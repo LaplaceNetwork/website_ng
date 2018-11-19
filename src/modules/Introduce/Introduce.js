@@ -68,7 +68,14 @@ export default class Introduce extends Component {
           >
             close
           </span>
-          <video width="100%" src={"/video/" + bg_video_src} autoPlay />
+          <video
+            width="100%"
+            src={"/video/" + bg_video_src}
+            autoPlay
+            controls="controls"
+          >
+            Your browser don't support the video
+          </video>
         </div>
         <Architecture data={architecture} />
       </section>

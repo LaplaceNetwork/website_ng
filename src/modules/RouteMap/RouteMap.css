@@ -149,12 +149,12 @@
   position: absolute;
   z-index: 1;
   bottom: -14%;
-  left: 36.2%;
+  /* left: 36.2%; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 28%;
+  /* width: 28%; */
   height: 260px;
 }
 .RouteMap__r5__desc {
@@ -181,14 +181,62 @@
 .RouteMap.--lang-en .RouteMap__r5__desc__content {
   text-align: left;
 }
-@media screen and (max-width: 768px) {
-  .RouteMap__r1 {
-    width: 40%;
-    top: 17%;
-    left: -12.4%;
+@media screen and (max-width: 425px) {
+  .RouteMap {
+    background: none;
+    height: auto;
   }
+  .RouteMap span {
+    width: 100%;
+  }
+  .RouteMap label,
+  .RouteMap.--lang-en label {
+    width: 60%;
+    word-break: break-word;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .RouteMap__r1,
+  .RouteMap__r2,
+  .RouteMap__r3,
+  .RouteMap__r4,
+  .RouteMap__r5 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    margin-bottom: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
   .RouteMap img {
-    width: 35%;
-    /* height: 40%; */
+    width: 100px;
+    /* height: 75px; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .RouteMap__r1 {
+    flex-direction: row-reverse;
+  }
+  .RouteMap__r2 {
+    flex-direction: row-reverse;
+  }
+  .RouteMap__r2__desc {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .RouteMap.--lang-en .RouteMap__r3__desc,
+  .RouteMap.--lang-en .RouteMap__r4__desc {
+    left: 0;
   }
 }

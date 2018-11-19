@@ -106,3 +106,8 @@
     margin-top: 50px;
   }
 }
+@media screen and (max-width: 425px) {
+  .Team {
+    margin-top: 100px;
+  }
+}

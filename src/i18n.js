@@ -326,9 +326,9 @@ export default {
       subtitle: "Decentralized Data Exchange Protocol Group",
       desc: "Supporter of data discovery, data authorization and data exchange",
       wpName: "White paper",
-      whitepaper: "laplace_whitepaper_cn_v5.5.pdf",
+      whitepaper: "laplace_whitepaper_en_v5.3.pdf",
       wmName: "Watch Video",
-      video: "intro_cn.mp4",
+      video: "intro_en.mp4",
       architecture: [
         {
           title: "Infrastructure",
