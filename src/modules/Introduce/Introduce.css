@@ -83,7 +83,7 @@
 }
 .Introduce__video__player--isPlaying {
   display: block;
-  background: white;
+  background: black;
   position: fixed;
   z-index: 10;
   top: 0;

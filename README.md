@@ -12,7 +12,7 @@ yarn build
 
 In order to deploy on github automatically. We should push the files on build folder.
 
-##如何进行本地测试（Windows）
+## 如何进行本地测试（Windows）
 
 1. [官网](https://nodejs.org)下载安装 nodejs。
 2. 打开命令行工具，输入命令安装 serve：  

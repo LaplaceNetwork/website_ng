@@ -69,7 +69,7 @@ export default class Introduce extends Component {
             close
           </span>
           <video
-            width="100%"
+            width="80%"
             src={"/video/" + bg_video_src}
             autoPlay
             controls="controls"
