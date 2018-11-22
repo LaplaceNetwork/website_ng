@@ -211,8 +211,8 @@ export default {
     videos: {
       title: "钱包App测试版操作示范",
       list: [
-        { img: "/video/qianbao_img.png", src: "/video/qianbao.mp4" },
-        { img: "/video/lpt-pay_img.png", src: "/video/lpt-pay.mp4" }
+        { img: "/video/qianbao_img", src: "/video/qianbao.mp4" },
+        { img: "/video/lpt-pay_img", src: "/video/lpt-pay.mp4" }
       ]
     },
     faqs: {
@@ -536,8 +536,8 @@ export default {
     videos: {
       title: "Demos for App",
       list: [
-        { img: "/video/qianbao_img.png", src: "/video/qianbao.mp4" },
-        { img: "/video/lpt-pay_img.png", src: "/video/lpt-pay.mp4" }
+        { img: "/video/qianbao_img", src: "/video/qianbao.mp4" },
+        { img: "/video/lpt-pay_img", src: "/video/lpt-pay.mp4" }
       ]
     },
     faqs: {

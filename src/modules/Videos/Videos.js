@@ -10,24 +10,28 @@ export default class Videos extends Component {
       videos: props.data.list,
       video: props.data.list[1],
       isPlaying: false,
-      videoSrc: ""
+      videoSrc: "",
+      isSmallScreen: true
     };
   }
   componentDidMount = () => {
-    console.log(this.playerBg);
+    const vWidth = document.body.getClientRects()[0].width;
+    if (vWidth > 1440) {
+      this.setState({ isSmallScreen: false });
+    }
   };
 
   render() {
     const { title } = this.props.data;
     const { lang } = this.props;
-    const { videos, video, isPlaying, videoSrc } = this.state;
+    const { videos, video, isPlaying, videoSrc, isSmallScreen } = this.state;
     const mainCls = classNames({
       Videos: true,
       "Videos--hidden": isPlaying
     });
     const playerCls = classNames({
-      player: true,
-      "player--playing": isPlaying
+      Videos__Demo__Player: true,
+      "--playing": isPlaying
     });
     const rootCls = classNames({
       ["--lang-" + lang]: lang
@@ -35,29 +39,33 @@ export default class Videos extends Component {
     return (
       <div style={{ width: "100%", position: "relative" }} className={rootCls}>
         <section className={mainCls}>
-          <Title text={title} />
-          <ul className="Videos__list">
-            {videos.map((video, i) => {
-              return (
-                <li
-                  className="Videos__list__item"
-                  data-index={i}
-                  key={uniqid()}
-                  onClick={this.onChangeVideo}
-                >
-                  <img src={video.img} alt={video.img} />
-                </li>
-              );
-            })}
-          </ul>
-          <div className="Videos__player" ref={el => (this.playerBg = el)}>
+          <Title text={title} className="Videos__Title" />
+          <div className="Video__List_Container">
+            <ul className="Videos__list">
+              {videos.map((video, i) => {
+                const imgSrc =
+                  (isSmallScreen ? video.img + "_sm" : video.img) + ".png";
+                return (
+                  <li
+                    className="Videos__list__item"
+                    data-index={i}
+                    key={uniqid()}
+                    onClick={this.onChangeVideo}
+                  >
+                    <img src={imgSrc} alt="Demo video" />
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          <div className="Videos__Demo" ref={el => (this.playerBg = el)}>
             <img
-              className="Videos__player__bg"
-              src={video.img}
+              className="Videos__Demo__bg"
+              src={(isSmallScreen ? video.img + "_sm" : video.img) + ".png"}
               alt="video screenshot"
             />
             <img
-              className="Videos__player__btn"
+              className="Videos__Demo__btn"
               src="/img/play.png"
               alt="player button"
               data-name={video.src}
@@ -66,12 +74,22 @@ export default class Videos extends Component {
           </div>
         </section>
         <section className={playerCls}>
-          <span className="player__closer" onClick={this.onClose}>
-            Close
-          </span>
-          <video width="50%" src={videoSrc} autoPlay controls="controls">
-            您的浏览器不支持video标签
-          </video>
+          <div className="Videos__Player__Container">
+            <span
+              className="Videos__Demo__Player__Closer"
+              onClick={this.onClose}
+            >
+              Close
+            </span>
+            <video
+              src={videoSrc}
+              autoPlay
+              controls="controls"
+              className="Videos__DemoVideo"
+            >
+              您的浏览器不支持video标签
+            </video>
+          </div>
         </section>
       </div>
     );
