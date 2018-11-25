@@ -7,9 +7,16 @@ export default class Introduce extends Component {
     super(props);
     this.state = {
       isPlaying: false,
-      bg_video_src: ""
+      bg_video_src: "",
+      vWidth: 0,
+      vHeight: 0
     };
   }
+  componentDidMount = () => {
+    const { width, height } = document.body.getClientRects()[0];
+    this.setState({ vWidth: `${width - 5}px`, vHeight: `${height - 10}px` });
+  };
+
   render() {
     const {
       title,
@@ -25,7 +32,7 @@ export default class Introduce extends Component {
       Introduce: true,
       ["--lang-" + lang]: lang
     });
-    const { isPlaying, bg_video_src } = this.state;
+    const { isPlaying, bg_video_src, vWidth } = this.state;
     const playerCls = classNames({
       Introduce__video__player: true,
       "Introduce__video__player--isPlaying": isPlaying
@@ -69,7 +76,8 @@ export default class Introduce extends Component {
             close
           </span>
           <video
-            width="80%"
+            width={vWidth}
+            // height={vHeight}
             src={"/video/" + bg_video_src}
             autoPlay
             controls="controls"

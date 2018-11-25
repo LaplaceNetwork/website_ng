@@ -81,14 +81,16 @@ export default class Videos extends Component {
             >
               Close
             </span>
-            <video
-              src={videoSrc}
-              autoPlay
-              controls="controls"
-              className="Videos__DemoVideo"
-            >
-              您的浏览器不支持video标签
-            </video>
+            {videoSrc && (
+              <video
+                src={videoSrc}
+                autoPlay
+                controls="controls"
+                className="Videos__DemoVideo"
+              >
+                您的浏览器不支持video标签
+              </video>
+            )}
           </div>
         </section>
       </div>
