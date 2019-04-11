@@ -1,11 +1,11 @@
 export default {
   cn: {
-    nav: ["拉普拉斯", "路线图", "LPT团队", "FAQ", "ENGLISH"],
+    nav: ["拉普拉斯", "路线图", "Laplace团队", "FAQ", "ENGLISH"],
     introdution: {
       title: "拉普拉斯网络",
       subtitle: "去中心化数据交换协议群",
       desc:
-        "拉普拉斯网络简称LPT，是一套基于区块链去中心化概念数据交换协议群，支持数据的发现，授权与交易。",
+        "拉普拉斯网络简称Laplace，是一套基于区块链去中心化概念数据交换协议群，支持数据的发现，授权与交易。",
       wpName: "白皮书",
       whitepaper: "laplace_whitepaper_cn_v5.5.pdf",
       wmName: "观看视频",
@@ -42,8 +42,8 @@ export default {
             "移动APP",
             "生态服务的官方入口",
             "索引服务",
-            "支持对LPT网络中各种数据产品的搜索、认证以及推荐",
-            "LPT开发框架",
+            "支持对Laplace网络中各种数据产品的搜索、认证以及推荐",
+            "Laplace开发框架",
             "方便生态伙伴快速接入协议"
           ]
         },
@@ -62,9 +62,9 @@ export default {
     routeMap: {
       title: "路线图",
       routes: [
-        { date: "2018.Q4", content: ["初版协议定稿"], icon: "r1.png" },
+        { date: "2019.Q2", content: ["初版协议定稿"], icon: "r1.png" },
         {
-          date: "2019.Q1",
+          date: "2019.Q3",
           content: [
             "官方APP上线，后期同步迭代协议最新进展",
             "信用评估社区建设"
@@ -72,20 +72,20 @@ export default {
           icon: "r2.png"
         },
         {
-          date: "2019.Q2",
+          date: "2019.Q4",
           content: [
             "测试版协议上线，发布社区评估版开发框架",
-            "LPT-PAY正式上线APP，招募支付网络生态伙伴"
+            "Laplace-PAY正式上线APP，招募支付网络生态伙伴"
           ],
           icon: "r3.png"
         },
         {
-          date: "2019.Q3",
+          date: "2020.Q1",
           content: ["上线官方索引服务"],
           icon: "r4.png"
         },
         {
-          date: "2019.Q4",
+          date: "2020.Q2",
           content: [
             "正式网评估版本完整上线",
             "开放生态贡献挖矿",
@@ -212,7 +212,7 @@ export default {
       title: "钱包App测试版操作示范",
       list: [
         { img: "/video/qianbao_img", src: "/video/qianbao.mp4" },
-        { img: "/video/lpt-pay_img", src: "/video/lpt-pay.mp4" }
+        { img: "/video/Laplace-pay_img", src: "/video/Laplace-pay.mp4" }
       ]
     },
     faqs: {
@@ -220,7 +220,7 @@ export default {
       list: [
         {
           q: "哪些国家地区不支持通证兑换？",
-          a: ["LPT通证兑换不支持中国大陆地区以及美国地区用户参与。"]
+          a: ["Laplace通证兑换不支持中国大陆地区以及美国地区用户参与。"]
         },
         {
           q: "什么是拉普拉斯协议？",
@@ -235,21 +235,21 @@ export default {
         {
           q: "如何做到数据交易的真实性？",
           a: [
-            "1. 数据产品拥有者首先需要通过LPT-CA（去中心化的CA认证协议）认证才能进行数据交易；",
-            "2. 数据产品拥有者需要抵押相当数量的LPT代币才能上线交易；",
-            "3. 基于LPT-SCORES协议（去中心化信用评估协议），基金会联合社区力量将有可能打造一个开放透明的信用评估社区， 为数据交易双方提供信用担保；",
-            "4. 以上所有过程都运行于开放的LPT协议二层网络，并且由社区进行监督维护。"
+            "1. 数据产品拥有者首先需要通过Laplace-CA（去中心化的CA认证协议）认证才能进行数据交易；",
+            "2. 数据产品拥有者需要抵押相当数量的Laplace代币才能上线交易；",
+            "3. 基于Laplace-SCORES协议（去中心化信用评估协议），基金会联合社区力量将有可能打造一个开放透明的信用评估社区， 为数据交易双方提供信用担保；",
+            "4. 以上所有过程都运行于开放的Laplace协议二层网络，并且由社区进行监督维护。"
           ]
         },
         {
           q: "协议里的子协议都是做什么用的？",
           a: [
-            "LPT协议群围绕数据交易生态主要提供下面几类服务：",
-            "1. LPT-CA协议，确保数据产品拥有者身份可追溯；",
-            "2. LPT-DATA协议，数据生产，存储证明协议；",
-            "3. LPT-PRIVACY协议，支持数据的安全存储和匿名交易；",
-            "4. LPT-EXCHANGE/LPT-PAY，支持数据产品的撮合/担保交易；",
-            "5. LPT-SCORES协议，基于代币激励的去中心化信用评估社区协议。"
+            "Laplace协议群围绕数据交易生态主要提供下面几类服务：",
+            "1. Laplace-CA协议，确保数据产品拥有者身份可追溯；",
+            "2. Laplace-DATA协议，数据生产，存储证明协议；",
+            "3. Laplace-PRIVACY协议，支持数据的安全存储和匿名交易；",
+            "4. Laplace-EXCHANGE/Laplace-PAY，支持数据产品的撮合/担保交易；",
+            "5. Laplace-SCORES协议，基于代币激励的去中心化信用评估社区协议。"
           ]
         },
         {
@@ -263,13 +263,13 @@ export default {
         {
           q: "什么是数据服务通道？",
           a: [
-            "通过LPT协议连接生态伙伴可以形成一个完整的自动化数据服务通道，向最终用户提供开箱即用的数据产品服务。它涵盖了数据处理的各个阶段和领域包括但不限于：数据抓取、数据处理、数据分析、数据存储、数据加工、数据预测等。"
+            "通过Laplace协议连接生态伙伴可以形成一个完整的自动化数据服务通道，向最终用户提供开箱即用的数据产品服务。它涵盖了数据处理的各个阶段和领域包括但不限于：数据抓取、数据处理、数据分析、数据存储、数据加工、数据预测等。"
           ]
         },
         {
           q: "协议在未来会运用在什么地方？",
           a: [
-            "我们的最终目标是在LPT的基础上构建一个，新型的开放的数据处理和服务产品发现的全球开放市场；让数据生态的各个角色各取所需互利共赢。"
+            "我们的最终目标是在Laplace的基础上构建一个，新型的开放的数据处理和服务产品发现的全球开放市场；让数据生态的各个角色各取所需互利共赢。"
           ]
         },
         {
@@ -320,7 +320,7 @@ export default {
     }
   },
   en: {
-    nav: ["Laplace", "Route Map", "LPT Team", "FAQ", "中文"],
+    nav: ["Laplace", "Route Map", "Laplace Team", "FAQ", "中文"],
     introdution: {
       title: "Laplace NetWork",
       subtitle: "Decentralized Data Exchange Protocol Group",
@@ -346,11 +346,11 @@ export default {
         {
           title: "Protocol Group",
           items: [
-            "Decentralized CA Protocol (LPT-CA)",
+            "Decentralized CA Protocol (Laplace-CA)",
             "Data Storage Certificate Agreement",
-            "Data Exchange Protocol (LPT-exchange)",
-            "Data Payment Protocol (LPT-PAY)",
-            "Credit Scoring Protocol (LPT-scores)",
+            "Data Exchange Protocol (Laplace-exchange)",
+            "Data Payment Protocol (Laplace-PAY)",
+            "Credit Scoring Protocol (Laplace-scores)",
             "Ecosystem PoW Protocol",
             "Ecological contribution to mining"
           ]
@@ -361,8 +361,8 @@ export default {
             "Mobile APP",
             "Official portal of ecological service",
             "Indexing Service",
-            "Retrieve, authentication and recommendation of various services on LPT web",
-            "LPT Development Framework",
+            "Retrieve, authentication and recommendation of various services on Laplace web",
+            "Laplace Development Framework",
             "Enable partners in the ecosystem access protocols quickly"
           ]
         },
@@ -382,12 +382,12 @@ export default {
       title: "Route map",
       routes: [
         {
-          date: "2018.Q4",
+          date: "2019.Q2",
           content: ["First edition of protocol finalized"],
           icon: "r1.png"
         },
         {
-          date: "2019.Q1",
+          date: "2019.Q3",
           content: [
             "Official APP comes online, will synchronize the update on iteration protocol later",
             "Construction of credit scores community"
@@ -395,20 +395,20 @@ export default {
           icon: "r2.png"
         },
         {
-          date: "2019.Q2",
+          date: "2019.Q4",
           content: [
             "Test version comes online, publish the framework of community assessment",
-            "LPT-PAY officially come online, begin to recruit ecological partners of payment network"
+            "Laplace-PAY officially come online, begin to recruit ecological partners of payment network"
           ],
           icon: "r3.png"
         },
         {
-          date: "2019.Q3",
+          date: "2020.Q1",
           content: ["Official indexing service come online"],
           icon: "r4.png"
         },
         {
-          date: "2019.Q4",
+          date: "2020.Q2",
           content: [
             "Official web assessment version comes online",
             "Ecological distribution of mining (PoW and PoS) come online",
@@ -537,7 +537,7 @@ export default {
       title: "Demos for App",
       list: [
         { img: "/video/qianbao_img", src: "/video/qianbao.mp4" },
-        { img: "/video/lpt-pay_img", src: "/video/lpt-pay.mp4" }
+        { img: "/video/Laplace-pay_img", src: "/video/Laplace-pay.mp4" }
       ]
     },
     faqs: {
@@ -550,7 +550,7 @@ export default {
         {
           q: "What is Laplace Protocol?",
           a: [
-            "LPT is a decentralized data exchange protocol group which enables users to exploit, authorize and exchange data."
+            "Laplace is a decentralized data exchange protocol group which enables users to exploit, authorize and exchange data."
           ]
         },
         {
@@ -562,21 +562,21 @@ export default {
         {
           q: "How do we realize the authenticity of data exchange?",
           a: [
-            "1. Owner of the data should get through LPT-CA (decentralized CA authentication protocol) before processing data exchange.",
-            "2. Owner of the data should mortgage a fair amount of LPT before processing data exchange.",
-            "3. Banding with the power of community, the foundation will be able to make an open and transparent credit rating community based on LPT-SCORES protocol (decentralized credit rating protocol).",
-            "4. All of the above processes are running on an opened bi-level network of LPT protocol and are supervised and maintained by the community."
+            "1. Owner of the data should get through Laplace-CA (decentralized CA authentication protocol) before processing data exchange.",
+            "2. Owner of the data should mortgage a fair amount of Laplace before processing data exchange.",
+            "3. Banding with the power of community, the foundation will be able to make an open and transparent credit rating community based on Laplace-SCORES protocol (decentralized credit rating protocol).",
+            "4. All of the above processes are running on an opened bi-level network of Laplace protocol and are supervised and maintained by the community."
           ]
         },
         {
           q: "What are the sub-protocols for?",
           a: [
-            "The LPT protocol group which around the data exchange ecosystem mainly provides services below :",
-            "1. LPT-CA protocol insures the traceability of data owners’ identity.",
-            "2. LPT-DATA protocol includes data production and storage certificate agreements.",
-            "3. LPT-PRIVACY protocol supports secure storage and anonymous transactions of data.",
-            "4. LPT-EXCHANGE/LPT-PAY supports matchmaking trading and secured transaction of data.",
-            "5. LPT-SCORES protocol is a decentralized credit rating community protocol."
+            "The Laplace protocol group which around the data exchange ecosystem mainly provides services below :",
+            "1. Laplace-CA protocol insures the traceability of data owners’ identity.",
+            "2. Laplace-DATA protocol includes data production and storage certificate agreements.",
+            "3. Laplace-PRIVACY protocol supports secure storage and anonymous transactions of data.",
+            "4. Laplace-EXCHANGE/Laplace-PAY supports matchmaking trading and secured transaction of data.",
+            "5. Laplace-SCORES protocol is a decentralized credit rating community protocol."
           ]
         },
         {
@@ -590,13 +590,13 @@ export default {
         {
           q: "What is data services portal?",
           a: [
-            "By connecting LPT protocol to our ecological partners, we will construct an integrated automatic data service portal which can provide our users out-of-the-box data product services including each stage of data processing such as data capture, data treating, data analysis, data storage and data forecasting, etc."
+            "By connecting Laplace protocol to our ecological partners, we will construct an integrated automatic data service portal which can provide our users out-of-the-box data product services including each stage of data processing such as data capture, data treating, data analysis, data storage and data forecasting, etc."
           ]
         },
         {
-          q: "What are the future applications of LPT protocol?",
+          q: "What are the future applications of Laplace protocol?",
           a: [
-            "Our ultimate goal is to construct a new type of open global market for data processing and product service discovery based on LPT. We will make effort to enable each partner in the data ecosystem takes his need and realize mutual benefit."
+            "Our ultimate goal is to construct a new type of open global market for data processing and product service discovery based on Laplace. We will make effort to enable each partner in the data ecosystem takes his need and realize mutual benefit."
           ]
         },
         {
